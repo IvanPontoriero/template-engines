@@ -1,0 +1,21 @@
+<div class="form-container">
+    <h1>Formulario para la carga de productos</h1>
+        <form action="/add" enctype='application/x-www-form-urlencoded' method="post">
+            <legend>Ingrese los datos del producto que desea cargar</legend>
+                <div>
+                    <label for="title"><b>Título del Producto</b></label>
+                    <input type="text" name="title" value="">
+                </div>
+                <div>
+                    <label for="price"><b>Precio del Producto</b></label>
+                    <input type="text" name="price" value="">
+                </div>
+                <div>
+                    <label for="thumbnail"><b>URL de Fotoproducto</b></label>
+                    <input type="text" name="thumbnail" value="">
+                </div>
+            <div>
+                <button type='submit' id="submit">Enviar</button>
+            </div>
+        </form>
+</div>

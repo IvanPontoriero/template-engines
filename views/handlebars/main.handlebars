@@ -1,0 +1,17 @@
+<div class="main--container">
+    <h1>Nuestro Productos</h1>
+    <table>
+        <td>
+            <tr>Producto</tr>
+            <tr>Precio</tr>
+            <tr>Miniatura</tr>
+        </td>
+        <td>
+            {{#each peliculas}}
+            <tr>{{this.name}}</tr>
+            <tr>{{this.price}}</tr>
+            <tr>{{this.thumbnail}}</tr>
+            {{/each}}
+        </td>
+    </table>
+</div>

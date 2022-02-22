@@ -1,0 +1,24 @@
+{
+  "name": "motores_de_plantillas",
+  "version": "1.0.0",
+  "description": "maquetacion con handlebars, pug && ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "handlebars",
+    "pug",
+    "ejs"
+  ],
+  "author": "IvanPontoriero",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2"
+  }
+}
